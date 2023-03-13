@@ -11,11 +11,11 @@ let form=document.querySelector("form");
 
 	         
 	     
-	     if((money==" ")||(money<0)||(isNAN(money))){
+	     if((money==" ")||(money<0)||(isNaN(money))){
 	     	reset.innerHTML="ENTER YOUR COORECT AMOUND";
 	     	}
 
-	      else if((tips==" ")||(tips<0)||(isNAN(tips))){
+	      else if((tips==" ")||(tips<0)||(isNaN(tips))){
 	     	reset.innerHTML="ENTER YOUR COORECT AMOUND"}
 
 	     	else { let cash=money*(tips/100);
